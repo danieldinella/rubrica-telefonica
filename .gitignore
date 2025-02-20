@@ -1,0 +1,30 @@
+# File e cartelle di Eclipse
+.classpath
+.project
+.settings/
+
+# Cartelle di compilazione
+/bin/
+
+# File di configurazione del database (IMPORTANTE!)
+database.properties
+config/database.yml
+.env
+*.db
+*.sql
+*.sqlite
+
+# File temporanei e di log
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# File di output ed eseguibili
+*.class
+*.jar
+*.war
+*.ear
