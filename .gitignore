@@ -6,12 +6,10 @@
 # Cartelle di compilazione
 /bin/
 
-# File di configurazione del database (IMPORTANTE!)
-database.properties
+# File di configurazione del database (mantieni quelli specifici)
 config/database.yml
 .env
 *.db
-*.sql
 *.sqlite
 
 # File temporanei e di log
@@ -23,8 +21,7 @@ config/database.yml
 .DS_Store
 Thumbs.db
 
-# File di output ed eseguibili
+# File di output ed eseguibili (mantieni .jar)
 *.class
-*.jar
 *.war
 *.ear
